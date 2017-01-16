@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dip"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal"
+    android:gravity="fill_horizontal">
+    <Button
+        android:text="Normal"
+        android:layout_width="wrap_content"
+        android:layout_height="48.0dp"
+        android:id="@+id/selectCheckin" />
+    <Button
+        android:text="Check in"
+        android:layout_width="wrap_content"
+        android:layout_height="48.0dp"
+        android:id="@+id/postCheckin" />
+</LinearLayout>
